@@ -1,6 +1,6 @@
 {
   "name": "@sebowy/concurrent-array",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "\"ConcurrentArray\" - Run array higher order functions asynchronously with concurrency control",
   "main": "./dist/umd/index.js",
   "module": "./dist/esm/index.js",
