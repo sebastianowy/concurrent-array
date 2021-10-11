@@ -27,6 +27,7 @@ const array = [3, 5, 1, 2, 4];
 const asyncArray = new ConcurrentArray(array, {
   maxConcurrency: 10,
 });
+
 asyncArray
   .sort((left, right) => new Promise((resolve) => setTimeout(() => resolve(left - right), 1000)), {
     maxConcurrency: 5, // overwrite max concurrency for sort array operation
