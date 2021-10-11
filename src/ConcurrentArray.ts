@@ -1,5 +1,5 @@
-import { AsyncArray } from '@sebowy/async-array';
-import { ConcurrentQueue } from '@sebowy/concurrent-queue';
+import { AsyncArray } from '@sebastianowy/async-array';
+import { ConcurrentQueue } from '@sebastianowy/concurrent-queue';
 import { IConcurrentArray } from './interfaces/IConcurrentArray';
 import { IConcurrentArrayOptions } from './interfaces/IConcurrentArrayOptions';
 import { IElementCallback } from './interfaces/IElementCallback';
